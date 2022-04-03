@@ -1,4 +1,4 @@
-const initialNum = 7;
+const initialNum = Math.floor(Math.random() * 11);
 let userGuess = 0
 let numberChances = 3;
 
