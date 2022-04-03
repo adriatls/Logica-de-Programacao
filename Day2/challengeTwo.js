@@ -12,6 +12,6 @@ if (like === 1) {
 if (like === 2) {
     alert("Ahh que pena... Já tentou aprender outras linguagens?");
 };
-if (like !== 1 || like !== 2) {
+if (like !== 1 && like !== 2) {
     alert(`Na próxima vez você me conta mesmo se gosta de ${language} ou não =)`)
 };
